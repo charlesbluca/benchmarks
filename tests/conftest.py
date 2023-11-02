@@ -807,6 +807,6 @@ def new_array(request):
     return _
 
 
-@pytest.fixture(params=[0.1, 1])
+@pytest.fixture(params=[0.1, 0.3, 1])
 def memory_multiplier(request):
     return request.param
