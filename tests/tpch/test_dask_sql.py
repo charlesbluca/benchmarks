@@ -11,8 +11,6 @@ BLOCKSIZE = "256MiB"
 def context(dataset_path):
     c = Context()
 
-    breakpoint()
-
     for table in os.listdir(dataset_path):
         if table.endswith(".parquet"):
             c.create_table(
