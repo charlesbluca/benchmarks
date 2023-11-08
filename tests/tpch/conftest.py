@@ -13,7 +13,7 @@ _rapids = True
 LOCAL_SF100_PATH = "/raid/dask-space/rzamora/tpch-data/tables_scale_100/"
 #LOCAL_SF100_PATH = "./tpch-data/scale100/"
 
-LOCAL_DIRECTORY = "/raid/dask-space/rzamora/dask-space"
+LOCAL_DIRECTORY = "/raid/charlesb/dask-space"
 
 
 @pytest.fixture(scope="session")

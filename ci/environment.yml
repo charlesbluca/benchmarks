@@ -44,3 +44,4 @@ dependencies:
   - polars >=0.19.3,<=0.19.8  # 0.19.3 on Windows, 0.19.8 on Linux and MacOS
   - dask-cudf=23.12
   - dask-cuda=23.12
+  - dask-sql
