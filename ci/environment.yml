@@ -1,5 +1,7 @@
 channels:
+  - rapidsai-nightly
   - conda-forge
+  - nvidia
 dependencies:
   - python >=3.9
   - pip
@@ -33,7 +35,6 @@ dependencies:
   - optuna ==3.3.0
   - scipy ==1.11.2
   - sqlalchemy ==2.0.21
-  - pynvml ==11.5.0
   - bokeh ==3.2.2
   - gilknocker ==0.4.1
   - openssl >1.1.0g
@@ -41,3 +42,5 @@ dependencies:
   - openjdk ==20.0.2
   - python-duckdb ==0.9.1
   - polars >=0.19.3,<=0.19.8  # 0.19.3 on Windows, 0.19.8 on Linux and MacOS
+  - dask-cudf=23.12
+  - dask-cuda=23.12
